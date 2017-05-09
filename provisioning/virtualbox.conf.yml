@@ -1,7 +1,7 @@
 ---
-box: "boxcutter/"
+box: "sakhan/ubuntu1404-contrail-devstack1"
 contrail_devstack_allinone:
   host_name: allinone.devstack.dev
-  ip: "192.168.33.101"
+  #ip: "192.168.33.101"
   memory: 8192
   cpus: 2
