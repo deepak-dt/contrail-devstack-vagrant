@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-su - vagrant -c "cp dev/contrail-installer/localrc ./"
-su - vagrant -c "./dev/contrail-installer/contrail.sh restart"
-su - vagrant -c "./dev/devstack/stack.sh"
+su - vagrant -c "mkdir -p /vagrant"
+su - vagrant -c "cd dev/contrail-installer && ./contrail.sh restart"
+su - vagrant -c "cd dev/devstack && ./stack.sh"
